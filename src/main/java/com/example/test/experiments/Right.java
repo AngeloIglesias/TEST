@@ -11,6 +11,7 @@ public class Right {
     public Right()
     {
         System.out.println("RIGHT");
+        System.out.println(name);
     }
 
 

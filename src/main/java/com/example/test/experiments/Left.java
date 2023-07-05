@@ -13,6 +13,7 @@ public class Left {
     public Left()
     {
         System.out.println("LEFT");
+        System.out.println(name);
     }
 
 
