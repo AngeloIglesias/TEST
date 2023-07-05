@@ -9,7 +9,7 @@ public class MyService {
 
     public String doSomething() {
         // Implementiere hier deine Geschäftslogik
-        return Left.name + Right.name + Left.lookRight + Right.lookLeft;
+        return Right.lookLeft.name + Left.lookRight.name;
     }
 
     // Weitere Service-Methoden hier...

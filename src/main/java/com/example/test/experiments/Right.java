@@ -2,7 +2,16 @@ package com.example.test.experiments;
 
 public class Right {
 
-    public static String name = "Right";
+    public static Left lookLeft = new Left();
 
-    public static String lookLeft = Left.name;
+    public String name = "Right";
+
+    public static String bla = lookLeft.name;
+
+    public Right()
+    {
+        System.out.println("RIGHT");
+    }
+
+
 }
