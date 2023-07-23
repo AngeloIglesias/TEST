@@ -6,19 +6,19 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyController {
 
-    private final MyService myService;
+  private final MyService myService;
 
-    public MyController(MyService myService) {
-        this.myService = myService;
-    }
+  public MyController(MyService myService) { this.myService = myService; }
 
-    @GetMapping("")
-    public String doSometing() {
-        return myService.doSomething();
+  @GetMapping("")
+  public String doSometing() {
+    return myService.doSomething();
     }
 
     @GetMapping("/hello")
     public String hello() {
+
+            String test = "Na, du Kackstück..!" // Comment dfdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss longggg
         return "Hello from the controller!";
     }
 
